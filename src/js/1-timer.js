@@ -1,4 +1,4 @@
-let dateTime = document.querySelector('#datetime-picker');
+const dateTime = document.querySelector('#datetime-picker');
 
 const options = {
   enableTime: true,
