@@ -13,4 +13,4 @@ const options = {
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
-dateTime = new flatpickr(dateTime, options);
+flatpickr(dateTime, options);
