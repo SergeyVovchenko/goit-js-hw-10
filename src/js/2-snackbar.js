@@ -18,15 +18,12 @@ function handleInput(event) {
 
 function handleRadio(event) {
     userRadio = event.target.value;
-    console.log(event.target.value);
 }
 
 const queueCreate = [];
 function handleCreate(event) {
     event.preventDefault();
     queueCreate.push({ delay: `${userDelay}`, value: `${userRadio}` });
-    console.log(queueCreate);
-    console.log(queueCreate[0].delay);
 
     const prom = new Promise((resolve, reject) => {
         setTimeout(() => {
